@@ -13,3 +13,13 @@ gcc -pthread fibo.c  -o 5         (gcc -pthread filename.c -o 5  (-o 5 means exe
 
 
 
+mpicc mpi_hello.c -o mpi_hello --> to compile the mpi file .
+mpirun -np 4 ./mpi_hello --> to run the exe file 
+mpi_hello --> is file name 
+mpicc file.c -o file
+mpirun -np 4 ./file(exe)
+
+
+for threads------>
+gcc -pthread filename.c -o a -> to compile
+./a -> to run
